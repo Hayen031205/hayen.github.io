@@ -6,25 +6,18 @@
     <title>Contact Us Form</title>
   </head>
   <body>
-   
-        <h1>Contact Us</h1>
-        <form method="post" action="/contact-form-data/">
-          <table>
-            <td>
-              <input name="readername" type="text" placeholder="name" required/>
-            </td>
-            <tr>
-              <input name="readeremail" type="text" placeholder="email" required/>
-            </tr>
-            <td>
-              <textarea name="message" rows="5" cols="30" placeholder="Message" required></textarea>  
-            </td>
-            <td>
-              <button type="submit">Send Message</button>
-            </td>
-          </table>
+   <div style="max-width: 850px; margin-left:auto; margin-right: auto">
+        <h1 style="text-align: center;">Contact Us</h1>
+        <form style="margin-left: -20px; padding: 40px" method="post" action="/contact-form-data/">
+              <p><input style="font-size:medium; padding:10px; border: none; background-color: rgb(196, 236, 222)
+              ; width: 100%; margin-bottom: 15px; box-sizing: border-box;" name="readername" type="text" placeholder="Your name" required/></p>
+              <p><input  style="font-size:medium; padding:10px; border: none; background-color: rgb(196, 236, 222)
+              ; width: 100%; margin-bottom: 15px; box-sizing: border-box;" name="readeremail" type="text" placeholder="Email" required/></p>
+              <p><textarea style="font-size:medium; padding:10px; border: none; background-color: rgb(196, 236, 222)
+              ; width: 100%;  margin-bottom: 15px;box-sizing: border-box;" name="message" rows="5" cols="30" placeholder="Message" required></textarea>  </p>
+              <p><button style="font-size:large; padding:10px; border: none; width: 100%;  margin-bottom: 15px
+              ; box-sizing: border-box;"; type="submit">Send Message</button></p>     
         </form>
-
+    </div>
   </body>
-  
 </html>
